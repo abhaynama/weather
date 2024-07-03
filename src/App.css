@@ -1,0 +1,198 @@
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  background-image: url(https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=600) ;
+  background-size: 100%;
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.box1{
+  background-color: rgb(38, 37, 37);
+  background-image: url();
+  
+  opacity: 70%;
+  box-shadow:  black 3px 1px 12px 12px;
+  display: flex;
+  height: 28em;
+  width: 50em;
+  margin-top: 10%;
+ 
+  
+  
+}
+.box2{
+  background-color: rgb(48, 33, 33);
+  opacity: 70%;
+  box-shadow:  rgb(0, 0, 0) 3px 1px 12px 12px;
+  display: flex;
+  height: 28em;
+  width: 40em;
+  margin-top: 10%;
+  justify-content: center;
+  
+  
+}
+
+
+@keyframes flip {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+.heade{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+.head1{
+  color: rgb(89, 92, 95);
+margin-top: -100px;
+  
+  display: flex;
+  
+}
+.head2{
+display: flex;
+color: rgb(56, 59, 61);
+margin-top: 20px;
+
+
+
+}
+.head{
+  color: aliceblue;
+}
+
+
+
+
+
+.degree{
+  color: aliceblue;
+  font-size: 3rem;
+  margin-left: 1rem;
+  margin-top: 5px;
+}
+.forecast{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.temp{
+  display: flex;
+ 
+
+}
+.place{
+  display: flex;
+  height: 15%;
+  margin-top: 1em;
+  margin-left: 1rem;
+  font-display: row;
+  }
+  .cityname{
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 95%;
+    font-size: 3rem;
+    font-weight: 100;
+    display: flex;
+    }
+  .searchbar{
+    display: flex;
+    color:aliceblue;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8rem;
+  }
+
+  .form{
+    color: aliceblue;
+  }
+  .search{
+    all:unset ;
+   background-color: rgb(3, 16, 27);
+     color: aliceblue;
+     text-align: left;
+     width: 120%;
+     opacity: 90%;
+    
+    border-radius: 10px;
+    border: solid white 0.2px;
+    padding: 4px;
+    
+  }
+  .weather{
+    color:aliceblue;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+  .weatstatus{
+    margin-top: -25px;
+  }
+
+  .insight{
+    display: flex ;
+    width: 100%;
+    height: auto ;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .inhead{
+    text-align: center;
+    text-decoration:underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 40%;
+    
+  }
+  .inhead:hover {
+    text-align: center;
+    text-decoration:underline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    opacity: 100%;
+  }
+  .insigh{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .insight1{
+display: flex;
+margin-left: 20px;
+width: 50%;
+  }
+  .insight2{
+display: flex;
+text-align: right;
+
+width: 50%;
+
+  }
+  ul{
+    list-style: none;
+    text-align: left;
+  }
+  
